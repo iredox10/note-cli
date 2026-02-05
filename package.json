@@ -1,16 +1,27 @@
 {
   "name": "note-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A frictionless terminal note-taking app with fuzzy search and quick capture.",
   "main": "index.js",
   "bin": {
     "note": "./index.js"
   },
+  "files": [
+    "index.js",
+    "config.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "notes",
+    "cli",
+    "terminal",
+    "markdown",
+    "productivity"
+  ],
+  "author": "Iredox50",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
